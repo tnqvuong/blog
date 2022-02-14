@@ -21,7 +21,7 @@ This page describes the amazing {{ site.title }} by {{ site.author.name }}.
 {% endfor %}
   
 ## List of small animals
-{% assign small_aniimals = site.data.animals | where: "size", "small" %}
+{% assign small_animals = site.data.animals | where: "size", "small" %}
 {% for animal in small_animals %}
 - {{ animale.name | upcase }}
 {% endfor %}
